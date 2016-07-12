@@ -1,2 +1,2 @@
-script: echo hi
-language: ruby
+- 1
+- 2
