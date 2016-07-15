@@ -1,1 +1,2 @@
-<SDv;
+language: ruby
+script: echo hi
