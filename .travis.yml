@@ -5,16 +5,16 @@ dist: trusty
 matrix:
   include:
     - env: FOO=1
-      services:
-       - mongodb
       addons:
         packages:
           apt:
             - gcc-4.8
-    - env: FOO=2
       services:
         - elasticsearch
+    - env: FOO=2
       addons:
         packages:
           apt:
             - g++-4.8
+      services:
+        - mongodb
