@@ -4,11 +4,13 @@ sudo: false
 dist: trusty
 matrix:
   include:
-    - addons:
+    - env: FOO=1
+      addons:
         packages:
           apt:
             - gcc-4.8
-    - addons:
+    - env: FOO=2
+      addons:
         packages:
           apt:
-            - g++-4.8
+            - gcc-4.8
