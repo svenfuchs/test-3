@@ -4,17 +4,11 @@ sudo: false
 dist: trusty
 matrix:
   include:
-    - env: FOO=1
-      addons:
+    - addons:
         packages:
           apt:
             - gcc-4.8
-      services:
-        - elasticsearch
-    - env: FOO=2
-      addons:
+    - addons:
         packages:
           apt:
             - g++-4.8
-      services:
-        - mongodb
