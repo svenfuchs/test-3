@@ -2,4 +2,6 @@ language: ruby
 script: echo hi
 env:
   global:
+    - FOO=foo
     - secure:
+    - secure: HK8re2H+bp+1lMXP4SiqMSGb008RcOOr8/dhjyh8KjFUOMMshwScBQRgTzjqa4HLsox1mpwVz0DzEnzH2HLDgZ4myiUTBzBzWsSTL1BAFia/Comb7R765J03r4y6X57elEdC8KulBx+B1/dc/DK88f1/CexvwcqPEmK+SM+3q4D9pgd0g9D9T3NqbolSmGucRoOnrhVxJSzm+YsAIkfPVfIviwXRp8sKzfrfaFUU6BPhlFDWudwE02WWwlMQsm97jMR+0VA9Y5A7e59Ji/nK99SiKRbcnXzWWKu6A5hCbWZmoTCS378s3GVztw3qp9slG0BmfBs2U0ZeTr/ENmjtp7cfVfAkgxc2xYZsy3Qkh286cTeQsKJe9biO4AOLfK2kdIvW+8mQPeqfx9iOJQtmB9mzg7ZsJ7U54P/uO+nJxsc4F/5R4o7+erJY6CgjiRG5QbHkwJE6udrhA+WEY9cjNRdQowyYfUJBaAb7MXZ1Gv8VRY+FkVMC4rHIeRNzxDdJrr+aLl5CrxkKM/QyUZZHRSv6386EMwhZPZNoMcymdLA4MBTSM6vtOxQV0X1kFPcpm3lvOrJ+3+YWSaxT5yXyFfteXivUojU5wOd4SDMtVO1dos0htl5JyjqbOrX06qmT305DlREOGeS1M0dJCfP5EsP9t84QLE5w7t8Yb1dpNYM=
