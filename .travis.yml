@@ -1,20 +1,5 @@
 language: ruby
 script: echo hi
-sudo: false
-dist: trusty
-matrix:
-  include:
-    - env: FOO=1
-      services:
-        - mongodb
-      addons:
-        apt:
-          packages:
-            - gcc-4.8
-    - env: FOO=2
-      services:
-        - elasticsearch
-      addons:
-        apt:
-          packages:
-            - g++-4.8
+env:
+  global:
+    - secure:
